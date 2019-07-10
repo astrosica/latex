@@ -4,7 +4,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% length
+% length\distance
 \newcommand{\cm}{\ifmmode {\rm cm}\else cm\fi}
 \newcommand{\m}{\ifmmode {\rm m}\else m\fi}
 \newcommand{\km}{\ifmmode {\rm km}\else km\fi}
@@ -12,32 +12,57 @@
 \newcommand{\kpc}{\ifmmode {\rm kpc}\else kpc\fi}
 \newcommand{\Mpc}{\ifmmode {\rm Mpc}\else Mpc\fi}
 \newcommand{\ly}{\ifmmode {\rm ly}\else ly\fi}
-% time
-\newcommand{\s}{\ifmmode {\rm s}\else s\fi}
-\newcommand{\Hz}{\ifmmode {\rm Hz}\else Hz\fi}
-\newcommand{\yr}{\ifmmode {\rm yr}\else y\fi}
-%other
-\newcommand{\K}{\ifmmode {\rm K}\else K\fi}
-\newcommand{\Teff}{\ifmmode {T_{\rm eff}}\else $T_{\rm eff}$\fi}
-\newcommand{\ster}{\ifmmode {\rm ster}\else ster\fi}
-\newcommand{\erg}{\ifmmode {\rm erg}\else erg\fi}
-\newcommand{\dyn}{\ifmmode {\rm dyn}\else dyn\fi}
-\newcommand{\muG}{\ifmmode {\mu \rm{G}} \else {$\mu$G}\fi}
-\newcommand{\solar}{\ifmmode _{\mathord\odot}\else $_{\mathord\odot}$\fi}
-\newcommand{\Msun}{\ifmmode {M}_{\mathord\odot}\else $M_{\mathord\odot}$\fi}
-\newcommand{\Rsun}{\ifmmode {R_\odot}\else R$_\odot$ \fi}
-\newcommand{\AU}{\ifmmode {{\rm AU}}\else AU \fi} 
-\newcommand{\kms}{\ifmmode{\rm km\;s^{-1}}\else km~s$^{-1}$ \fi}
-\newcommand{\kps}{\ifmmode{\rm km\;s^{-1}}\else km~s$^{-1}$ \fi}
+\newcommand{\AU}{\ifmmode {{\rm AU}}\else AU \fi}
+% angular size
 \newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}    % fractional arcminute symbol: 0.'0
 \newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}        % fractional arcsecond symbol: 0.''0
 \newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}                           % fractional degree symbol:     0.°0
 \renewcommand{\deg}{\ifmmode {^\circ}\else $^\circ$ \fi}
+% time
+\newcommand{\s}{\ifmmode {\rm s}\else s\fi}
+\newcommand{\Hz}{\ifmmode {\rm Hz}\else Hz\fi}
+\newcommand{\yr}{\ifmmode {\rm yr}\else y\fi}
+% speed
+\newcommand{\kms}{\ifmmode{\rm km\;s^{-1}}\else km~s$^{-1}$ \fi}
+\newcommand{\cms}{\ifmmode{\rm cm\;s^{-1}}\else cm~s$^{-1}$ \fi}
+\newcommand{\Mpcyr}{\ifmmode {\rm Mpc\,yr^{-1}}\else Mpc\,yr$^{-1}$\fi}
+% temperature
+\newcommand{\K}{\ifmmode {\rm K}\else K\fi}
+\newcommand{\Teff}{\ifmmode {T_{\rm eff}}\else $T_{\rm eff}$\fi}
+\newcommand{\Tex}{\ifmmode {T_{\rm ex}}\else $T_{\rm ex}$\fi}
+\newcommand{\TK}{\ifmmode {T_{\rm K}}\else $T_{\rm K}$\fi}
+\newcommand{\Tb}{\ifmmode {T_{\rm b}}\else $T_{\rm b}$\fi}
+\newcommand{\Ts}{\ifmmode {T_{\rm s}}\else $T_{\rm s}$\fi}
+% energy
+\newcommand{\erg}{\ifmmode {\rm erg}\else erg\fi}
+\newcommand{\dyn}{\ifmmode {\rm dyn}\else dyn\fi}
+\newcommand{\eV}{\ifmmode {\rm eV}\else eV\fi}
+\newcommand{\MeV}{\ifmmode {\rm MeV}\else MeV\fi}
+\newcommand{\GeV}{\ifmmode {\rm GeV}\else eV\fi}
+% Solar
+\newcommand{\solar}{\ifmmode _{\mathord\odot}\else $_{\mathord\odot}$\fi}
+\newcommand{\Rsun}{\ifmmode {R_\odot}\else R$_\odot$ \fi}
+\newcommand{\Msun}{\ifmmode {M}_{\mathord\odot}\else $M_{\mathord\odot}$\fi}
+% other
+\newcommand{\ster}{\ifmmode {\rm ster}\else ster\fi}
+\newcommand{\muG}{\ifmmode {\mu \rm{G}} \else {$\mu$G}\fi}
 \newcommand{\kB}{\ifmmode {k_B}\else $k_B$ \fi} 
 \newcommand{\mH}{\ifmmode {m_{\rm H}}\else $m_{\rm H}$ \fi} 
 \newcommand{\nH}{\ifmmode {n_{\rm H}}\else $n_{\rm H}$ \fi} 
 \newcommand{\NH}{\ifmmode {N_{\rm H}}\else $N_{\rm H}$ \fi} 
 \newcommand{\muH}{\ifmmode {\mu_{\rm H}}\else $\mu_{\rm H}$ \fi}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%                                            VARIABLES
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% speed
+\newcommand{\vLSR}{\ifmmode {v_{\rm LSR}}\else $v_{\rm LSR}$\fi}
+\newcommand{\vr}{\ifmmode {v_r}\else $v_r$\fi}
+\newcommand{\vt}{\ifmmode {v_t}\else $v_t$\fi}
+\newcommand{\cs}{\ifmmode {c_s}\else $c_s$\fi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -49,20 +74,12 @@
 \newcommand{\HK}{\ifmmode {H\!-\!K_S}\else $H\!-\!K_S$ \fi}
 \newcommand{\AV}{\ifmmode {A_{\rm V}}\else $A_{\rm V}$ \fi}
 \newcommand{\AK}{\ifmmode {A_{\rm K_S}}\else $A_{\rm K_S}$ \fi}
+\newcommand{\BV}{\ifmmode {B\!-\!V}\else $B\!-\!V$ \fi}
+\newcommand{\EBV}{\ifmmode {E(B\!-\!V)}\else $E(B\!-\!V)$ \fi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%                                            ABBREVIATIONS
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\etal}{{et al.}}
-\newcommand{\ie}{i.e.}
-\newcommand{\eg}{e.g.}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%                                            SPECIAL SYMBOLS
+%                                            SYMBOLS
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -83,6 +100,16 @@
 \newcommand{\calt}{\ifmmode {{\cal T}} \else ${{\cal T}}$\fi}
 \newcommand{\calv}{\ifmmode {{\cal V}} \else ${{\cal V}}$\fi}
 \newcommand{\calw}{\ifmmode {{\cal W}} \else ${{\cal W}}$\fi}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%                                            ABBREVIATIONS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\etal}{{et al.}}
+\newcommand{\ie}{i.e.}
+\newcommand{\eg}{e.g.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
