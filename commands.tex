@@ -16,7 +16,7 @@
 % angular size
 \newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}    % fractional arcminute symbol: 0.'0
 \newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}        % fractional arcsecond symbol: 0.''0
-\newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}                           % fractional degree symbol:     0.Â°0
+\newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}                           % fractional degree symbol:     0.°0
 \renewcommand{\deg}{\ifmmode {^\circ}\else $^\circ$ \fi}
 % time
 \newcommand{\s}{\ifmmode {\rm s}\else s\fi}
@@ -79,12 +79,22 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
+%                                             RADIO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\polgrad}{\ifmmode {|\vec{\nabla}\vec{P}|}\else $|\vec{\nabla}\vec{P}|$ \fi}
+\newcommand{\polgradrad}{\ifmmode {|\vec{\nabla}\vec{P}|_{\rm rad}}\else $|\vec{\nabla}\vec{P}|_{\rm rad}$ \fi}
+\newcommand{\polgradtan}{\ifmmode {|\vec{\nabla}\vec{P}|_{\rm tan}}\else $|\vec{\nabla}\vec{P}|_{\rm tan}$ \fi}
+\newcommand{\polgradarg}{\ifmmode {{\rm arg}(\vec{\nabla}\vec{P})}\else ${\rm arg}(\vec{\nabla}\vec{P})$ \fi}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
 %                                            SYMBOLS
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\def\avg#1	{\langle #1\rangle}
-\newcommand{\del}{\nabla}
+\newcommand{\del}{\ifmmode {\nabla} \else $\nabla$\fi}
 \newcommand{\calc}{\ifmmode {{\cal C}} \else ${{\cal C}}$\fi}
 \newcommand{\calf}{\ifmmode {{\cal F}} \else ${{\cal F}}$\fi}
 \newcommand{\calg}{\ifmmode {{\cal G}} \else ${{\cal G}}$\fi}
