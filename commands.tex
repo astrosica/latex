@@ -5,52 +5,52 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % length\distance
-\newcommand{\cm}{\ifmmode {\rm cm}\else cm\fi}
-\newcommand{\m}{\ifmmode {\rm m}\else m\fi}
-\newcommand{\km}{\ifmmode {\rm km}\else km\fi}
-\newcommand{\pc}{\ifmmode {\rm pc}\else pc\fi}
-\newcommand{\kpc}{\ifmmode {\rm kpc}\else kpc\fi}
-\newcommand{\Mpc}{\ifmmode {\rm Mpc}\else Mpc\fi}
-\newcommand{\ly}{\ifmmode {\rm ly}\else ly\fi}
-\newcommand{\AU}{\ifmmode {{\rm AU}}\else AU \fi}
+\newcommand{\cm}{\ifmmode {\rm cm}\else cm\fi}          % centimeter
+\newcommand{\m}{\ifmmode {\rm m}\else m\fi}               % meter
+\newcommand{\km}{\ifmmode {\rm km}\else km\fi}          % kilometer
+\newcommand{\pc}{\ifmmode {\rm pc}\else pc\fi}             % parsec
+\newcommand{\kpc}{\ifmmode {\rm kpc}\else kpc\fi}       % kiloparsec
+\newcommand{\Mpc}{\ifmmode {\rm Mpc}\else Mpc\fi}    % megaparsec
+\newcommand{\ly}{\ifmmode {\rm ly}\else ly\fi}                 % lightyear
+\newcommand{\AU}{\ifmmode {{\rm AU}}\else AU \fi}       % astronomical unit
 % angular size
-\newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}    % fractional arcminute symbol: 0.'0
-\newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}        % fractional arcsecond symbol: 0.''0
-\newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}                           % fractional degree symbol:     0.°0
-\renewcommand{\deg}{\ifmmode {^\circ}\else $^\circ$ \fi}
+\newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}     % fractional arcminute symbol:  0.'0
+\newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}         % fractional arcsecond symbol: 0.''0
+\newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}                            % fractional degree symbol:      0.°0
+\renewcommand{\deg}{\ifmmode {^\circ}\else $^\circ$ \fi}                     % degrees
 % time
-\newcommand{\s}{\ifmmode {\rm s}\else s\fi}
-\newcommand{\Hz}{\ifmmode {\rm Hz}\else Hz\fi}
-\newcommand{\yr}{\ifmmode {\rm yr}\else y\fi}
+\newcommand{\s}{\ifmmode {\rm s}\else s\fi}               % second
+\newcommand{\Hz}{\ifmmode {\rm Hz}\else Hz\fi}       % Hertz
+\newcommand{\yr}{\ifmmode {\rm yr}\else y\fi}             % year
 % speed
-\newcommand{\kms}{\ifmmode{\rm km\;s^{-1}}\else km~s$^{-1}$ \fi}
-\newcommand{\cms}{\ifmmode{\rm cm\;s^{-1}}\else cm~s$^{-1}$ \fi}
-\newcommand{\Mpcyr}{\ifmmode {\rm Mpc\,yr^{-1}}\else Mpc\,yr$^{-1}$\fi}
+\newcommand{\kms}{\ifmmode{\rm km\;s^{-1}}\else km~s$^{-1}$ \fi}                % kilometers per second
+\newcommand{\cms}{\ifmmode{\rm cm\;s^{-1}}\else cm~s$^{-1}$ \fi}                 % centimeters per second
+\newcommand{\Mpcyr}{\ifmmode {\rm Mpc\,yr^{-1}}\else Mpc\,yr$^{-1}$\fi}        % megaparsecs per year
 % temperature
-\newcommand{\K}{\ifmmode {\rm K}\else K\fi}
-\newcommand{\Teff}{\ifmmode {T_{\rm eff}}\else $T_{\rm eff}$\fi}
-\newcommand{\Tex}{\ifmmode {T_{\rm ex}}\else $T_{\rm ex}$\fi}
-\newcommand{\TK}{\ifmmode {T_{\rm K}}\else $T_{\rm K}$\fi}
-\newcommand{\Tb}{\ifmmode {T_{\rm b}}\else $T_{\rm b}$\fi}
-\newcommand{\Ts}{\ifmmode {T_{\rm s}}\else $T_{\rm s}$\fi}
+\newcommand{\K}{\ifmmode {\rm K}\else K\fi}                                     % Kelvinn
+\newcommand{\Teff}{\ifmmode {T_{\rm eff}}\else $T_{\rm eff}$\fi}       % effective temperature
+\newcommand{\Tex}{\ifmmode {T_{\rm ex}}\else $T_{\rm ex}$\fi}        % excitation temperature
+\newcommand{\TK}{\ifmmode {T_{\rm K}}\else $T_{\rm K}$\fi}            % kinetic temperature
+\newcommand{\Tb}{\ifmmode {T_{\rm b}}\else $T_{\rm b}$\fi}             % 
+\newcommand{\Ts}{\ifmmode {T_{\rm s}}\else $T_{\rm s}$\fi}              % spin temperature
 % energy
-\newcommand{\erg}{\ifmmode {\rm erg}\else erg\fi}
-\newcommand{\dyn}{\ifmmode {\rm dyn}\else dyn\fi}
-\newcommand{\eV}{\ifmmode {\rm eV}\else eV\fi}
-\newcommand{\MeV}{\ifmmode {\rm MeV}\else MeV\fi}
-\newcommand{\GeV}{\ifmmode {\rm GeV}\else eV\fi}
+\newcommand{\erg}{\ifmmode {\rm erg}\else erg\fi}               % erg
+\newcommand{\dyn}{\ifmmode {\rm dyn}\else dyn\fi}             % dyne
+\newcommand{\eV}{\ifmmode {\rm eV}\else eV\fi}                 % electronvolt
+\newcommand{\MeV}{\ifmmode {\rm MeV}\else MeV\fi}        % megaelectronvolt
+\newcommand{\GeV}{\ifmmode {\rm GeV}\else eV\fi}           % gigaelectronvolt
 % Solar
-\newcommand{\solar}{\ifmmode _{\mathord\odot}\else $_{\mathord\odot}$\fi}
-\newcommand{\Rsun}{\ifmmode {R_\odot}\else R$_\odot$ \fi}
-\newcommand{\Msun}{\ifmmode {M}_{\mathord\odot}\else $M_{\mathord\odot}$\fi}
+\newcommand{\solar}{\ifmmode _{\mathord\odot}\else $_{\mathord\odot}$\fi}                 % solar unit
+\newcommand{\Rsun}{\ifmmode {R_\odot}\else R$_\odot$ \fi}                                         % solar radius
+\newcommand{\Msun}{\ifmmode {M}_{\mathord\odot}\else $M_{\mathord\odot}$\fi}        % solar mass
 % other
-\newcommand{\ster}{\ifmmode {\rm ster}\else ster\fi}
-\newcommand{\muG}{\ifmmode {\mu \rm{G}} \else {$\mu$G}\fi}
-\newcommand{\kB}{\ifmmode {k_B}\else $k_B$ \fi} 
-\newcommand{\mH}{\ifmmode {m_{\rm H}}\else $m_{\rm H}$ \fi} 
-\newcommand{\nH}{\ifmmode {n_{\rm H}}\else $n_{\rm H}$ \fi} 
-\newcommand{\NH}{\ifmmode {N_{\rm H}}\else $N_{\rm H}$ \fi} 
-\newcommand{\muH}{\ifmmode {\mu_{\rm H}}\else $\mu_{\rm H}$ \fi}
+\newcommand{\ster}{\ifmmode {\rm ster}\else ster\fi}                                  % steradians
+\newcommand{\muG}{\ifmmode {\mu \rm{G}} \else {$\mu$G}\fi}                 % microgauss
+\newcommand{\kB}{\ifmmode {k_B}\else $k_B$ \fi}                                     % Boltzmann constant
+\newcommand{\mH}{\ifmmode {m_{\rm H}}\else $m_{\rm H}$ \fi}                % hydrogen mass
+\newcommand{\nH}{\ifmmode {n_{\rm H}}\else $n_{\rm H}$ \fi}                   % hydrogen volume density
+\newcommand{\NH}{\ifmmode {N_{\rm H}}\else $N_{\rm H}$ \fi}                 % hydrogen column density
+\newcommand{\muH}{\ifmmode {\mu_{\rm H}}\else $\mu_{\rm H}$ \fi}        % 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -59,10 +59,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % speed
-\newcommand{\vLSR}{\ifmmode {v_{\rm LSR}}\else $v_{\rm LSR}$\fi}
-\newcommand{\vr}{\ifmmode {v_r}\else $v_r$\fi}
-\newcommand{\vt}{\ifmmode {v_t}\else $v_t$\fi}
-\newcommand{\cs}{\ifmmode {c_s}\else $c_s$\fi}
+\newcommand{\vLSR}{\ifmmode {v_{\rm LSR}}\else $v_{\rm LSR}$\fi}         % local standard-of-rest velocity
+\newcommand{\vr}{\ifmmode {v_r}\else $v_r$\fi}                                            % radial velocity
+\newcommand{\vt}{\ifmmode {v_t}\else $v_t$\fi}                                            % transverse velocity
+\newcommand{\cs}{\ifmmode {c_s}\else $c_s$\fi}                                          % sound speed
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -70,12 +70,12 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\JH}{\ifmmode {J\!-\!H}\else $J\!-\!H$ \fi}
-\newcommand{\HK}{\ifmmode {H\!-\!K_S}\else $H\!-\!K_S$ \fi}
-\newcommand{\AV}{\ifmmode {A_{\rm V}}\else $A_{\rm V}$ \fi}
-\newcommand{\AK}{\ifmmode {A_{\rm K_S}}\else $A_{\rm K_S}$ \fi}
-\newcommand{\BV}{\ifmmode {B\!-\!V}\else $B\!-\!V$ \fi}
-\newcommand{\EBV}{\ifmmode {E(B\!-\!V)}\else $E(B\!-\!V)$ \fi}
+\newcommand{\JH}{\ifmmode {J\!-\!H}\else $J\!-\!H$ \fi}                                             % (J-H)
+\newcommand{\HK}{\ifmmode {H\!-\!K_S}\else $H\!-\!K_S$ \fi}                                  % (H-K)
+\newcommand{\AV}{\ifmmode {A_{\rm V}}\else $A_{\rm V}$ \fi}                                 % V-band extinction
+\newcommand{\AK}{\ifmmode {A_{\rm K_S}}\else $A_{\rm K_S}$ \fi}                        % K-band extinction
+\newcommand{\BV}{\ifmmode {B\!-\!V}\else $B\!-\!V$ \fi}                                            % (B-V)
+\newcommand{\EBV}{\ifmmode {E(B\!-\!V)}\else $E(B\!-\!V)$ \fi}                                % E(B-V)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -83,10 +83,10 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\polgrad}{\ifmmode {|\vec{\nabla}\vec{P}|}\else $|\vec{\nabla}\vec{P}|$ \fi}
-\newcommand{\polgradrad}{\ifmmode {|\vec{\nabla}\vec{P}|_{\rm rad}}\else $|\vec{\nabla}\vec{P}|_{\rm rad}$ \fi}
-\newcommand{\polgradtan}{\ifmmode {|\vec{\nabla}\vec{P}|_{\rm tan}}\else $|\vec{\nabla}\vec{P}|_{\rm tan}$ \fi}
-\newcommand{\polgradarg}{\ifmmode {{\rm arg}(\vec{\nabla}\vec{P})}\else ${\rm arg}(\vec{\nabla}\vec{P})$ \fi}
+\newcommand{\polgrad}{\ifmmode {|\vec{\nabla}\vec{P}|}\else $|\vec{\nabla}\vec{P}|$ \fi}                                         % polarization gradient
+\newcommand{\polgradrad}{\ifmmode {|\vec{\nabla}\vec{P}|_{\rm rad}}\else $|\vec{\nabla}\vec{P}|_{\rm rad}$ \fi}    % radial polarization gradient
+\newcommand{\polgradtan}{\ifmmode {|\vec{\nabla}\vec{P}|_{\rm tan}}\else $|\vec{\nabla}\vec{P}|_{\rm tan}$ \fi}     % tangential polarization gradient
+\newcommand{\polgradarg}{\ifmmode {{\rm arg}(\vec{\nabla}\vec{P})}\else ${\rm arg}(\vec{\nabla}\vec{P})$ \fi}       % argument of polarization gradient
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -94,9 +94,19 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\halpha}{\ifmmode {{\rm H}\alpha}\else H$\alpha$ \fi}
-\newcommand{\hbeta}{\ifmmode {{\rm H}\beta}\else H$\beta$ \fi}
-\newcommand{\hgamma}{\ifmmode {{\rm H}\gamma}\else H$\gamma$ \fi}
+\newcommand{\halpha}{\ifmmode {{\rm H}\alpha}\else H$\alpha$ \fi}                  % H-alpha
+\newcommand{\hbeta}{\ifmmode {{\rm H}\beta}\else H$\beta$ \fi}                        % H-beta
+\newcommand{\hgamma}{\ifmmode {{\rm H}\gamma}\else H$\gamma$ \fi}         % H-gamma
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%                                            MAGNETIC FIELDS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\B}{\ifmmode {\vec{B}}\else $\vec{B}$ \fi}                                                % magnetic field vector
+\newcommand{\Bparallel}{\ifmmode {\vec{B}_\parallel}\else $\vec{B_\parallel}$ \fi}       % parallel magnetic field vector
+\newcommand{\Bperp}{\ifmmode {\vec{B}_\parallel}\else $\vec{B}_\perp$ \fi}                % perpendicular magnetic field vector
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -104,22 +114,22 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\del}{\ifmmode {\nabla} \else $\nabla$\fi}
-\newcommand{\calc}{\ifmmode {{\cal C}} \else ${{\cal C}}$\fi}
-\newcommand{\calf}{\ifmmode {{\cal F}} \else ${{\cal F}}$\fi}
-\newcommand{\calg}{\ifmmode {{\cal G}} \else ${{\cal G}}$\fi}
-\newcommand{\calh}{\ifmmode {{\cal H}} \else ${{\cal H}}$\fi}
-\newcommand{\call}{\ifmmode {{\cal L}} \else ${{\cal L}}$\fi}
-\newcommand{\calm}{\ifmmode {{\cal M}} \else ${{\cal M}}$\fi}
-\newcommand{\caln}{\ifmmode {{\cal N}} \else ${{\cal N}}$\fi}
-\newcommand{\calo}{\ifmmode {{\cal O}} \else ${{\cal O}}$\fi}
-\newcommand{\calp}{\ifmmode {{\cal P}} \else ${{\cal P}}$\fi}
-\newcommand{\calq}{\ifmmode {{\cal Q}} \else ${{\cal Q}}$\fi}
-\newcommand{\calr}{\ifmmode {{\cal R}} \else ${{\cal R}}$\fi}
-\newcommand{\cals}{\ifmmode {{\cal S}} \else ${{\cal S}}$\fi}
-\newcommand{\calt}{\ifmmode {{\cal T}} \else ${{\cal T}}$\fi}
-\newcommand{\calv}{\ifmmode {{\cal V}} \else ${{\cal V}}$\fi}
-\newcommand{\calw}{\ifmmode {{\cal W}} \else ${{\cal W}}$\fi}
+\newcommand{\del}{\ifmmode {\nabla} \else $\nabla$\fi}                 % 
+\newcommand{\calc}{\ifmmode {{\cal C}} \else ${{\cal C}}$\fi}         % 
+\newcommand{\calf}{\ifmmode {{\cal F}} \else ${{\cal F}}$\fi}           % 
+\newcommand{\calg}{\ifmmode {{\cal G}} \else ${{\cal G}}$\fi}         % 
+\newcommand{\calh}{\ifmmode {{\cal H}} \else ${{\cal H}}$\fi}         % 
+\newcommand{\call}{\ifmmode {{\cal L}} \else ${{\cal L}}$\fi}            % 
+\newcommand{\calm}{\ifmmode {{\cal M}} \else ${{\cal M}}$\fi}        % 
+\newcommand{\caln}{\ifmmode {{\cal N}} \else ${{\cal N}}$\fi}          % 
+\newcommand{\calo}{\ifmmode {{\cal O}} \else ${{\cal O}}$\fi}          % 
+\newcommand{\calp}{\ifmmode {{\cal P}} \else ${{\cal P}}$\fi}           % 
+\newcommand{\calq}{\ifmmode {{\cal Q}} \else ${{\cal Q}}$\fi}          % 
+\newcommand{\calr}{\ifmmode {{\cal R}} \else ${{\cal R}}$\fi}           % 
+\newcommand{\cals}{\ifmmode {{\cal S}} \else ${{\cal S}}$\fi}           % 
+\newcommand{\calt}{\ifmmode {{\cal T}} \else ${{\cal T}}$\fi}             % 
+\newcommand{\calv}{\ifmmode {{\cal V}} \else ${{\cal V}}$\fi}            % 
+\newcommand{\calw}{\ifmmode {{\cal W}} \else ${{\cal W}}$\fi}         % 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -127,9 +137,9 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\etal}{{et al.}}
-\newcommand{\ie}{i.e.}
-\newcommand{\eg}{e.g.}
+\newcommand{\etal}{{et al.}}     % 
+\newcommand{\ie}{i.e.}             % 
+\newcommand{\eg}{e.g.}           % 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
