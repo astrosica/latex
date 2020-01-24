@@ -1,0 +1,93 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{mathtools}
+\usepackage{amsmath,amsthm,amssymb,cancel,bm,upgreek}
+\usepackage{floatrow}
+\setcounter{tocdepth}{2}
+\usepackage{geometry}
+\usepackage{ulem}
+\geometry{total={210mm,297mm},
+left=25mm,right=25mm,%
+bindingoffset=0mm, top=20mm,bottom=20mm}
+\newcommand{\linia}{\rule{\linewidth}{0.5pt}}
+\AtBeginDocument{%
+   \setlength\abovedisplayskip{-3pt}
+   \setlength\belowdisplayskip{5pt}}
+
+% links
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=green,filecolor=cyan,urlcolor=magenta}
+
+% title
+\makeatletter
+\renewcommand{\maketitle}{
+	\begin{center}
+	\vspace*{5cm}
+	\linia\\
+	\vspace{0.25cm}
+	{\huge \textsc{\@title}}
+	\linia\\
+	\vspace{2cm}
+	\@date\\
+	\vspace{5cm}
+	\@author
+	\end{center}
+}
+\makeatother
+
+% import commands
+\input{commands.tex}
+
+% begin document
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                                   %
+%                                TITLES                                       %
+%                                                                                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Title}
+\author{Jessica Campbell\\University of Toronto\\David A. Dunlap Department of Astronomy \& Astrophysics\\Dunlap Institute for Astronomy \& Astrophysics}
+\date{\today}
+\maketitle
+
+\newpage 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                                   %
+%                               SECTION                                     %
+%                                                                                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Section}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                                   %
+%                          SUBSECTION                                  %
+%                                                                                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Subsection}
+
+
+
+
+
+
+
+
+
+
+
+
+
+% end document
+\end{document}
