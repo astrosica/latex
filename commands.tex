@@ -5,14 +5,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % length\distance
-\newcommand{\cm}{\ifmmode {\rm cm}\else cm\fi}          % centimeter
-\newcommand{\m}{\ifmmode {\rm m}\else m\fi}               % meter
-\newcommand{\km}{\ifmmode {\rm km}\else km\fi}          % kilometer
-\newcommand{\pc}{\ifmmode {\rm pc}\else pc\fi}             % parsec
-\newcommand{\kpc}{\ifmmode {\rm kpc}\else kpc\fi}       % kiloparsec
-\newcommand{\Mpc}{\ifmmode {\rm Mpc}\else Mpc\fi}    % megaparsec
-\newcommand{\ly}{\ifmmode {\rm ly}\else ly\fi}                 % lightyear
-\newcommand{\AU}{\ifmmode {{\rm AU}}\else AU \fi}       % astronomical unit
+\newcommand{\cm}{\ifmmode {\rm cm}\else cm\fi}                       % centimeter
+\newcommand{\cmcube}{\ifmmode {\rm cm^3}\else cm$^3$\fi}    % centimeter cubed
+\newcommand{\m}{\ifmmode {\rm m}\else m\fi}                             % meter
+\newcommand{\mcube}{\ifmmode {\rm m^3}\else m^3\fi}             % meter cubed
+\newcommand{\km}{\ifmmode {\rm km}\else km\fi}                       % kilometer
+\newcommand{\pc}{\ifmmode {\rm pc}\else pc\fi}                          % parsec
+\newcommand{\kpc}{\ifmmode {\rm kpc}\else kpc\fi}                     % kiloparsec
+\newcommand{\Mpc}{\ifmmode {\rm Mpc}\else Mpc\fi}                 % megaparsec
+\newcommand{\ly}{\ifmmode {\rm ly}\else ly\fi}                              % lightyear
+\newcommand{\AU}{\ifmmode {{\rm AU}}\else AU \fi}                    % astronomical unit
 % angular size
 \newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}     % fractional arcminute symbol:  0.'0
 \newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}         % fractional arcsecond symbol: 0.''0
@@ -34,11 +36,14 @@
 \newcommand{\Tb}{\ifmmode {T_{\rm b}}\else $T_{\rm b}$\fi}             % 
 \newcommand{\Ts}{\ifmmode {T_{\rm s}}\else $T_{\rm s}$\fi}              % spin temperature
 % energy
-\newcommand{\erg}{\ifmmode {\rm erg}\else erg\fi}               % erg
-\newcommand{\dyn}{\ifmmode {\rm dyn}\else dyn\fi}             % dyne
-\newcommand{\eV}{\ifmmode {\rm eV}\else eV\fi}                 % electronvolt
-\newcommand{\MeV}{\ifmmode {\rm MeV}\else MeV\fi}        % megaelectronvolt
-\newcommand{\GeV}{\ifmmode {\rm GeV}\else eV\fi}           % gigaelectronvolt
+\newcommand{\erg}{\ifmmode {\rm erg}\else erg\fi}                          % erg
+\newcommand{\dyn}{\ifmmode {\rm dyn}\else dyn\fi}                        % dyne
+\newcommand{\eV}{\ifmmode {\rm eV}\else eV\fi}                             % electronvolt
+\newcommand{\MeV}{\ifmmode {\rm MeV}\else MeV\fi}                    % megaelectronvolt
+\newcommand{\GeV}{\ifmmode {\rm GeV}\else eV\fi}                       % gigaelectronvolt
+\newcommand{\Jy}{\ifmmode {\rm Jy}\else Jy\fi}                                % Jansky
+\newcommand{\muJy}{\ifmmode $\mu${\rm Jy}\else $\mu$Jy\fi}       % Jansky
+\newcommand{\MJy}{\ifmmode {\rm MJy}\else MJy\fi}                       % Jansky
 % Solar
 \newcommand{\solar}{\ifmmode _{\mathord\odot}\else $_{\mathord\odot}$\fi}                 % solar unit
 \newcommand{\Rsun}{\ifmmode {R_\odot}\else R$_\odot$ \fi}                                         % solar radius
@@ -79,7 +84,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%                                             RADIO
+%                                             POLARIZATION
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -140,6 +145,15 @@
 \newcommand{\etal}{{et al.}}     % 
 \newcommand{\ie}{i.e.}             % 
 \newcommand{\eg}{e.g.}           % 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%                                            TABLES
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand\Trule{\rule{0pt}{2.6ex}}          % Top strut
+\newcommand\Brule{\rule[-1.2ex]{0pt}{0pt}} % Bottom strut
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
