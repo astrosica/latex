@@ -1,0 +1,175 @@
+\documentclass[twocolumn]{aastex62}
+
+%%%%%%%%%%%%%%%%%%%%
+%                                                          %
+%                                                          %
+%                       PREAMBLE               %
+%                                                          %
+%                                                          %
+%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{footnote}
+\usepackage{helvet}
+\usepackage{color}
+\usepackage{afterpage}
+\usepackage{float}
+\usepackage{soul}
+\usepackage[toc,page]{appendix}
+\usepackage{chngcntr}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\hypersetup{linkcolor=black,citecolor=blue,filecolor=cyan,urlcolor=black}
+\usepackage{natbib}
+
+\revised{\today}
+%\accepted{\today}
+%% Command to document which AAS Journal the manuscript was submitted to.
+%% Adds "Submitted to " the argument.
+\submitjournal{ApJ}
+
+\shorttitle{Short Title}
+\shortauthors{Author et al.}
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%
+%                                                          %
+%                                                          %
+%                        TITLE                        %
+%                                                          %
+%                                                          %
+%%%%%%%%%%%%%%%%%%%%
+
+\title{title}
+
+\correspondingauthor{Author}
+\email{email@astro.utoronto.ca}
+
+\author[ORCID]{Author}
+\affil{Author affiliation}
+
+\author[ORCID]{Author}
+\affil{Author affiliation}
+
+\author[ORCID]{Author}
+\affil{Author affiliation}
+
+
+%%%%%%%%%%%%%%%%%%%%
+%                                                          %
+%                                                          %
+%                       ABSTRACT                %
+%                                                          %
+%                                                          %
+%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+
+Abstract text. 
+
+\end{abstract}
+\keywords{keywords}
+
+% useful during development of the story line
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%
+%                                                          %
+%                                                          %
+%                        INTRO                       %
+%                                                          %
+%                                                          %
+%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction} \label{sec:intro}
+
+Introduction.
+
+In this paper we... 
+
+The structure of this paper is as follows: ...
+
+%%%%%%%%%%%%%%%%%%%%
+%                                                          %
+%                                                          %
+%                         DATA                        %
+%                                                          %
+%                                                          %
+%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Data }\label{sec:data}
+
+Data.
+
+%%%%%%%%%%%%%%%%%%%%
+%                                                          %
+%                                                          %
+%                       ANALYSIS                  %
+%                                                          %
+%                                                          %
+%%%%%%%%%%%%%%%%%%%%
+
+\section{Analysis}\label{sec:analysis}
+
+Analysis.
+
+%%%%%%%%%%%%%%%%%%%%
+%                                                          %
+%                                                          %
+%                      DISCUSSION              %
+%                                                          %
+%                                                          %
+%%%%%%%%%%%%%%%%%%%%
+
+\section{Discussion}\label{sec:discussion}
+
+Discussion.
+
+%%%%%%%%%%%%%%%%%%%%
+%                                                          %
+%                                                          %
+%                       SUMMARY                 %
+%                                                          %
+%                                                          %
+%%%%%%%%%%%%%%%%%%%%
+
+\section{Summary}\label{sec:summary}
+
+Summary.
+
+%%%%%%%%%%%%%%%%%%%%
+%                                                          %
+%                                                          %
+%          ACKNOWLEDGMENTS          %
+%                                                          %
+%                                                          %
+%%%%%%%%%%%%%%%%%%%%
+
+\section{Acknowledgments}\label{sec:acknowledgments}
+
+Acknowledgments.
+
+
+%%%%%%%%%%%%%%%%%%%%
+%                                                          %
+%                                                          %
+%                        BIBLIO                      %
+%                                                          %
+%                                                          %
+%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+%\nocite{*} % show all available
+\bibliographystyle{aasjournal}
+\bibliography{bibliography.bib}
+
+\end{document}
+
