@@ -16,9 +16,9 @@
 \newcommand{\ly}{\ifmmode {\rm ly}\else ly\fi}                              % lightyear
 \newcommand{\AU}{\ifmmode {{\rm AU}}\else AU \fi}                    % astronomical unit
 % angular size
-\newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}     % fractional arcminute symbol:  0.'0
-\newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}         % fractional arcsecond symbol: 0.''0
-\newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}                            % fractional degree symbol:      0.°0
+%\newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}     % fractional arcminute symbol:  0.'0
+%\newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}         % fractional arcsecond symbol: 0.''0
+%\newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}                            % fractional degree symbol:      0.°0
 \renewcommand{\deg}{\ifmmode {^\circ}\else $^\circ$ \fi}                     % degrees
 % time
 \newcommand{\s}{\ifmmode {\rm s}\else s\fi}               % second
@@ -88,15 +88,20 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\Pvec}{\ifmmode {\boldsymbol{P}}\else $\boldsymbol{P}$ \fi}                                                                                                               % polarization vector
-\newcommand{\polgrad}{\ifmmode {|\boldsymbol{\nabla}\boldsymbol{P}|}\else $|\boldsymbol{\nabla}\boldsymbol{P}|$ \fi}                                         % polarization gradient
-\newcommand{\polgradrad}{\ifmmode {|\boldsymbol{\nabla}\boldsymbol{P}|_{\rm rad}}\else $|\boldsymbol{\nabla}\boldsymbol{P}|_{\rm rad}$ \fi}    % radial polarization gradient
-\newcommand{\polgradtan}{\ifmmode {|\boldsymbol{\nabla}\boldsymbol{P}|_{\rm tan}}\else $|\boldsymbol{\nabla}\boldsymbol{P}|_{\rm tan}$ \fi}     % tangential polarization gradient
-\newcommand{\polgradarg}{\ifmmode {{\rm arg}(\boldsymbol{\nabla}\boldsymbol{P})}\else ${\rm arg}(\boldsymbol{\nabla}\boldsymbol{P})$ \fi}       % argument of polarization gradient
+\newcommand{\Pvec}{\ifmmode {\boldsymbol{P}}\else $\boldsymbol{P}$ \fi} % polarization vector
+\newcommand{\polgrad}{\ifmmode {|\boldsymbol{\nabla}\boldsymbol{P}|}\else $|\boldsymbol{\nabla}\boldsymbol{P}|$ \fi} % polarization gradient
+\newcommand{\polgradmax}{\ifmmode {|\boldsymbol{\nabla}\boldsymbol{P}|_{\rm max}}\else $|\boldsymbol{\nabla}\boldsymbol{P}|_{\rm max}$ \fi} % maximum polarization gradient
+\newcommand{\polgradrad}{\ifmmode {|\boldsymbol{\nabla}\boldsymbol{P}|_{\rm rad,max}}\else $|\boldsymbol{\nabla}\boldsymbol{P}|_{\rm rad,max}$ \fi} % radial polarization gradient
+\newcommand{\polgradtan}{\ifmmode {|\boldsymbol{\nabla}\boldsymbol{P}|_{\rm tan,max}}\else $|\boldsymbol{\nabla}\boldsymbol{P}|_{\rm tan,max}$ \fi} % tangential polarization gradient
+\newcommand{\polgradarg}{\ifmmode {{\rm arg}(\boldsymbol{\nabla}\boldsymbol{P})}\else ${\rm arg}(\boldsymbol{\nabla}\boldsymbol{P})$ \fi} % argument of polarization gradient
+\newcommand{\polgradmaxarg}{\ifmmode {{\rm arg}(\boldsymbol{\nabla}\boldsymbol{P}_{\rm max})}\else ${\rm arg}(\boldsymbol{\nabla}\boldsymbol{P}_{\rm max})$ \fi} % argument of polarization gradient
+\newcommand{\gradchi}{\ifmmode {|\boldsymbol{\nabla}\chi|}\else $|\boldsymbol{\nabla}\chi|$ \fi} % gradient of polarization angle
+
+\newcommand{\phimax}{\ifmmode {\phi_{\rm max}}\else $\phi_{\rm max}$ \fi} % polarization vector
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%                                             EMISSION LINES
+%                                             BALMER LINES
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
